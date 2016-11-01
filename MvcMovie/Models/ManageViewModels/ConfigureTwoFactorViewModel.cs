@@ -1,10 +1,7 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace WebApplication.Models.ManageViewModels
+namespace MvcMovie.Models.ManageViewModels
 {
     public class ConfigureTwoFactorViewModel
     {

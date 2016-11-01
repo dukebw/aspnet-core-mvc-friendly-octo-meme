@@ -1,16 +1,14 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using WebApplication.Models;
-using WebApplication.Models.ManageViewModels;
-using WebApplication.Services;
+using MvcMovie.Models;
+using MvcMovie.Models.ManageViewModels;
+using MvcMovie.Services;
 
-namespace WebApplication.Controllers
+namespace MvcMovie.Controllers
 {
     [Authorize]
     public class ManageController : Controller

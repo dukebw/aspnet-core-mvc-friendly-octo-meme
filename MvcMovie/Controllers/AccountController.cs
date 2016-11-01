@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -8,11 +6,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
-using WebApplication.Models;
-using WebApplication.Models.AccountViewModels;
-using WebApplication.Services;
+using MvcMovie.Models;
+using MvcMovie.Models.AccountViewModels;
+using MvcMovie.Services;
 
-namespace WebApplication.Controllers
+namespace MvcMovie.Controllers
 {
     [Authorize]
     public class AccountController : Controller
